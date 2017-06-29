@@ -1,4 +1,4 @@
-package com.hankconn.metagolexperiment;
+package com.metagol.ilp2017experiment;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

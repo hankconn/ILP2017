@@ -1,4 +1,4 @@
-package com.hankconn.metagolexperiment;
+package com.metagol.ilp2017experiment;
 
 public class Constants
 {

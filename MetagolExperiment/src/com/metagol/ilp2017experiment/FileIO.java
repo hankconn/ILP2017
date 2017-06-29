@@ -1,4 +1,4 @@
-package com.hankconn.metagolexperiment;
+package com.metagol.ilp2017experiment;
 
 import java.io.File;
 import java.io.FileNotFoundException;
