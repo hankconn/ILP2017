@@ -1,13 +1,7 @@
-% is_same(A,B):-A = B.
-% is_not_same(A,B):-A \= B.
-
 parent(A,B):-mother(A,B).
 parent(A,B):-father(A,B).
-
 child(A,B):-parent(B,A).
-
 grandparent(A,B):-parent(A,C),parent(C,B).
-
 great_grandparent(A,B):-parent(A,C),grandparent(C,B).
 son(A,B):-child(A,B),male(A).
 daughter(A,B):-child(A,B),female(A).
@@ -15,15 +9,8 @@ grand_father(A,B):-grandparent(A,B),male(A).
 grand_mother(A,B):-grandparent(A,B),female(A).
 husband(A,B):-father(A,C),mother(B,C).
 wife(A,B):-mother(A,C),father(B,C).
-
-% brother_of_including_self(A,B):-son(A,C),mother(C,B).
-% brother(A,B):-brother_of_including_self(A,B),is_not_same(A,B).
 brother(A,B):-son(A,C),mother(C,B).
-
-% sister_of_including_self(A,B):-daughter(A,C),mother(C,B).
-% sister(A,B):-sister_of_including_self(A,B),is_not_same(A,B).
 sister(A,B):-daughter(A,C),mother(C,B).
-
 uncle_paternal(A,B):-brother(A,C),father(C,B).
 father_of_mother(A,B):-father(A,C),mother(C,B).
 aunt_paternal(A,B):-sister(A,C),father(C,B).
