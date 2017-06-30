@@ -53,3 +53,4 @@ Their definitions can be found in kinship_definitions.pl
 This code was written using for Windows using the Eclipse IDE and Java 8, though it can be adapted to any Unix-based system.
 
 Also see the Metagol web interface at https://github.com/metagol/metagol_web_interface
+And Metagol at https://github.com/metagol/metagol
