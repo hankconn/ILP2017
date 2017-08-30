@@ -1,5 +1,5 @@
 # ILP2017
-Experimental code for the ILP2017 paper "How does predicate order affect learning large logic programs?" can be found here.
+Experimental code for the ILP2017 paper "The Effect of Predicate Order on Curriculum Learning in ILP" can be found here.
 
 The complete list of 43 family relationship predicates used are the following (can be found at /MetagolExperiment/src/com/metagol/ilp2017experiment/Constants.java):
 
